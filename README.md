@@ -1,7 +1,7 @@
-# Getting Started with Create React App
-
+# Live Webex user presence React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It pulls all users from an org and lists their webex presence status. user status is updated in real time as it changes on webex.
 ## Available Scripts
 
 In the project directory, you can run:
