@@ -10,5 +10,5 @@ To run the app you need to run `npm install` from terminal to install node modul
 App isn't fully functional yet.
 
 # DISCLAIMER
-This app uses the unsupported (and outdated) internal-plugin-presence package found on our Webex Browser SDK. Any use of this app and/or package is at your own risk and Webex will not be able provide support for it.
+This app uses the unsupported (and outdated) [internal-plugin-presence](https://github.com/webex/webex-js-sdk/tree/master/packages/%40webex/internal-plugin-presence) package found on our [Webex Browser SDK](https://github.com/webex/webex-js-sdk). Any use of this app and/or package is at your own risk and Webex will not be able provide support for it.
 
