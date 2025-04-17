@@ -18,10 +18,10 @@ export function mergeMatchingRecords(usersIn, presenceDataIn) {
     .map(item => {
         const match = map.get(item["subject"]); // Get corresponding record from usersIn
         return {
-            id: item["subject"], // Use id value (or id, they should be the same)
-            name: match.displayName, // From usersIn
-            email: match.emails[0].value, // From presenceDataIn
-            status: item.status // Example: take extra data from usersIn
+            id: item["subject"], // Use subject value from apheleia, it is the user ID value
+            name: match.displayName, // From usersIn array
+            email: match.emails[0].value, // From presenceDataIn array
+            status: item.status // presence status
         };
     });
 

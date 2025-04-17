@@ -1,3 +1,7 @@
+/****
+* TEMPORARY FILE FOR TESTING, LISTING USERS FROM SCIM USER 2.0 API
+****/
+
 export const usersJson = [
   {
     "schemas": [
@@ -6,16 +10,16 @@ export const usersJson = [
       "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
     ],
     "id": "1412d869-de2c-4d7d-8aa4-bc30240e3e00",
-    "userName": "dominicamc@hotmail.com",
+    "userName": "test@hotmail.com",
     "active": true,
     "name": {
-      "familyName": "Laganá",
-      "givenName": "Dominica"
+      "familyName": "Lag",
+      "givenName": "Test"
     },
-    "displayName": "Dominica Laganá",
+    "displayName": "Test Lag",
     "emails": [
       {
-        "value": "dominicamc@hotmail.com",
+        "value": "test@hotmail.com",
         "type": "work",
         "primary": true
       }

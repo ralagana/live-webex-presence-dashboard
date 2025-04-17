@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# ***UNFINISHED***
+THIS IS AN UNFINISHED APP, WILL UPDATE IT WITH USEFUL INFO AS TIME ALLOWS AND EXPLAIN CURRENT ISSUES BLOCKING THE PROJECT FROM PROCEEDING.
 
+# Live Webex user presence React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+It pulls all users from an org and lists their webex presence status. user status is updated in real time as it changes on webex.
 
-In the project directory, you can run:
+## Run the App
+To run the app you need to run `npm install` from terminal to install node modules and once that's completed you can run `npm start`.
 
-### `npm start`
+## Work In progress...
+App isn't fully functional yet but does run in a testing environment and lists user presence. However, subscribing isn't working as expected due to limitations with the plugin in that it uses old/deprecated presence service APIs (Apheleia). More info on the SDK team's discovery efforts found [here](https://confluence-eng-gpk2.cisco.com/conf/display/WSDK/Public+Presence+Plugin). More details to follow...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# DISCLAIMER
+This app uses the unsupported (and outdated) [internal-plugin-presence](https://github.com/webex/webex-js-sdk/tree/master/packages/%40webex/internal-plugin-presence) package found on our [Webex Browser SDK](https://github.com/webex/webex-js-sdk). Any use of this app and/or package is at your own risk and Webex will not be able provide support for it. This application is built purely as an exploratory exercise and is not to Production standard.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
